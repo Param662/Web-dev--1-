@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Favorite Websites</title>
+</head>
+<body>
+  <h1>My Favorite Websites</h1>
+  <ul>
+
+    <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+    <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+    <li><a href="https://www.github.com" target="_blank">GitHub</a></li>
+  
+  </ul>
+</body>
+</html>
