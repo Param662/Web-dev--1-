@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Form</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: #f2f2f2; display: flex ; justify-content: center; align-items: center; height: 100vh;">
+
+    <form style="background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0px 4px 12px rgba(0,0,0,0.15); width: 500px;">
+        
+        <h1 style="text-align: center; margin-bottom: 20px; color: #333;">Registration Form</h1>
+
+             <label for="Username"><b>Name :-</b></label>
+        <input type="text" id="Username" name="Username" placeholder="Username" required
+         style="width: 100%; padding: 8px; margin: 8px 0 16px 0; border: 1px solid #ccc; border-radius: 6px;">
+        <br><br>
+        <label for="Email"><b>Email :-</b></label>
+        <input type="Email" id="Email" name="Email" placeholder="Email" required
+          style="width: 100%; padding: 8px; margin: 8px 0 16px 0; border: 1px solid #ccc; border-radius: 6px;">
+        <br><br>
+        <label for="Age"><b>Age:-</b></label>
+        <input type="number" id="Age" name="Age" placeholder="'Age'" required
+          style="width: 100%; padding: 8px; margin: 8px 0 16px 0; border: 1px solid #ccc; border-radius: 6px;">
+        <br><br>
+        <label for="Phone number"><b>Phone number:-</b></label>
+        <input type="tel" id="Phone number" name="Phone number" placeholder="Phone number" required
+          style="width: 100%; padding: 8px; margin: 8px 0 16px 0; border: 1px solid #ccc; border-radius: 6px;">
+        <br><br>
+        <label for="OTP"><b>OTP:-</b></label>
+        <input type="number" id="OTP" name="OTP" placeholder="Verify OTP" required
+          style="width: 100%; padding: 8px; margin: 8px 0 16px 0; border: 1px solid #ccc; border-radius: 6px;">
+        <br><br>
+        <label for="Date of birth"><b>DOB:-</b></label>
+        <input type="date" id="Date of birth" name="Date of birth" required
+          style="width: 100%; padding: 8px; margin: 8px 0 16px 0; border: 1px solid #ccc; border-radius: 6px;">
+        <br><br>
+
+        <p style="font-weight: bold; margin: 10px 0;">Choose your gender:</p>
+        <div style="margin-bottom: 16px;">
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label><br>
+
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label>
+        </div>
+
+        <textarea name="message" rows="4" cols="30" placeholder="Write a short bio..."
+                  style="width: 100%; padding: 8px; border: 1px solid #ccc; border-radius: 6px; margin-bottom: 16px;"></textarea>
+
+        <button type="submit" 
+                style="width: 100%; padding: 10px; background: #4CAF50; color: white; border: none; border-radius: 6px; font-size: 16px; cursor: pointer;">
+            Register
+        </button>
+    </form>
+
+</body>
+</html>
